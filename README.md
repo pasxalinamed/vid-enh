@@ -15,3 +15,28 @@ sudo pip install numpy
 sudo pip install matplotlib
 
 
+Example of use
+
+python video_enhancement.py --dir /home/user/Videos --equalize True
+
+python video_enhancement.py --help
+
+usage: video_enhancement.py [-h] [--dir ROOT_FOLDER] [--equalize EQUALIZE]
+                            [--denoise DENOISE] [--rotate90 ROTATE90]
+                            [--stabilize STABILIZE] [--keep_audio KEEP_AUDIO]
+
+Video_enhancement
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dir ROOT_FOLDER     Choose root directory to process
+  --equalize EQUALIZE   Perform histogram equalization
+  --denoise DENOISE     Perform frame denoising
+  --rotate90 ROTATE90   Perform 90 degrees rotation
+  --stabilize STABILIZE
+                        Perform video stabilization
+  --keep_audio KEEP_AUDIO
+                        Keep video audio
+
+
+
