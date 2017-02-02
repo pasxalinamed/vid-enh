@@ -14,7 +14,7 @@ sudo pip install matplotlib
 ```
 
 ###Example of use
-'''
+```
   python video_enhancement.py --dir /home/user/Videos --equalize True
 
   python video_enhancement.py --help
@@ -36,5 +36,5 @@ sudo pip install matplotlib
     --keep_audio KEEP_AUDIO
                           Keep video audio
 
-'''
+```
 
